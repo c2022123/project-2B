@@ -1,0 +1,42 @@
+
+.section-profile {
+    margin-top: 80px;
+    border-bottom: 1px solid;
+    padding-bottom: 80px;
+}
+
+.profile-item {
+
+    height: 200px;
+    border: 1px solid;
+    margin: 0 40px;
+    /* background-color: rgb(210, 232, 229); */
+}
+.section-profile .profile-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.section-profile .profile-item img{
+    width: 150x;
+    height: 150px;
+    border-radius: 200px;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    
+}
+
+.section-profile .profile-item p {
+    height: 100px;
+    overflow-y: hidden;
+}
+
+.article {
+    margin: 50px 0;
+    padding: 0 50px;
+}
